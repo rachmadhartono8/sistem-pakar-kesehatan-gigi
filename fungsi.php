@@ -61,5 +61,13 @@ function solusi($kode){
         $penyakit = "Medikasi";
         kesimpulan($penyakit);
     }
+    if ($kode=='S205') {
+        $penyakit = "Medikasi";
+        kesimpulan($penyakit);
+    }
+    if ($kode=='S206') {
+        $penyakit = "Medikasi";
+        kesimpulan($penyakit);
+    }
 }
 ?>
