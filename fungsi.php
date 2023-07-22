@@ -7,16 +7,16 @@ function answer($kode){
     }
     if($kode=='n2'){
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S200'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=m3-b'>Tidak</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=n4'>Tidak</a>";
     }
 
     if($kode=='n3'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=n1'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=S100'>Tidak</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=S203'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=S200'>Tidak</a>";
     }
 
     if($kode=='n4'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S200'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S204'>Ya</a>";
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=n6'>Tidak</a>";
     }
 
@@ -24,6 +24,17 @@ function answer($kode){
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S200'>Ya</a>";
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=n8'>Tidak</a>";
     }
+
+    if($kode=='n6'){
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=n7'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode='>Tidak</a>";
+    }
+
+    if($kode=='n7'){
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=n7'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode='>Tidak</a>";
+    }
+
 
 
 }
@@ -42,13 +53,13 @@ function solusi($kode){
         $penyakit = "Scaling";
         kesimpulan($penyakit);        
     }
-    if ($kode=='S200') {
-        $jurusan = "Informatika";
-        kesimpulan($jurusan);        
+    if ($kode=='S203') {
+        $penyakit = "Root Planing";
+        kesimpulan($penyakit);        
     }
-    if ($kode=='s2') {
-        $jurusan = "Sistem Informasi";
-        kesimpulan($jurusan);
+    if ($kode=='S204') {
+        $penyakit = "Medikasi";
+        kesimpulan($penyakit);
     }
 }
 ?>
