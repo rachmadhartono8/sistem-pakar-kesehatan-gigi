@@ -4,7 +4,7 @@ Web Sistem Pakar Kesehatan Gigi : web pengambilan keputusan menggunakan metode f
 # Instalasi Lokal
 1. Ekstrak semua file ke dalam htdocs
 2. Nyalakan service mysql dan apache
-3. Import file database "sispak.sql" ke dalam phpmyadmin
+3. Import file database "sistem-pakar-kesehatan-gigi.sql" ke dalam phpmyadmin
 4. Atur database di file koneksi.php
 5. Buka browser dan akses halaman web
 # sistem-pakar-kesehatan-gigi
