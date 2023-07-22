@@ -31,7 +31,7 @@ function answer($kode){
     }
 
     if($kode=='n7'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=n7'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S206'>Ya</a>";
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode='>Tidak</a>";
     }
 
