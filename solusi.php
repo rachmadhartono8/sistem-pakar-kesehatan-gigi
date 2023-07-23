@@ -46,7 +46,7 @@
 
                 <hr>
                 <?php
-                $sql = "SELECT * from tb_solusi WHERE kode_solusi='$kode'";
+                $sql = "SELECT * from tb_penyakit WHERE kode_solusi='$kode'";
                 $data = mysqli_query($connect,$sql);
                 $row = mysqli_fetch_assoc($data);
 
@@ -64,7 +64,7 @@
                                 <select name="solusi" class="form-control" id="exampleFormControlSelect2">
                                 <?php 
                                 include "koneksi.php";
-                                $sql = "SELECT * from tb_solusi";
+                                $sql = "SELECT * from tb_penyakit";
                                 $data = mysqli_query($connect,$sql);
                                 while ($row = mysqli_fetch_assoc($data)) {
                                    if ($row['isi_solusi']!="x-1" && $row['isi_solusi']!="x-2" && $row['isi_solusi']!="x-3" && $row['isi_solusi']!="x-4" && $row['isi_solusi']!="x-5") {
@@ -92,7 +92,7 @@
                 
                 ?>
                 <?php
-                $sql = "SELECT * from tb_solusi WHERE kode_solusi='$kode'";
+                $sql = "SELECT * from tb_penyakit WHERE kode_solusi='$kode'";
                 $data = mysqli_query($connect,$sql);
                 $row = mysqli_fetch_assoc($data);
 

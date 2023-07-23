@@ -35,7 +35,7 @@
                         $kode=$_GET['kode'];
                     }
 
-                    $sql = "SELECT * from tb_pertanyaan WHERE kode_pertanyaan='$kode'";
+                    $sql = "SELECT * from tb_pertanyaan_gejala WHERE kode_pertanyaan='$kode'";
                     $data = mysqli_query($connect,$sql);
                     $row = mysqli_fetch_assoc($data);     
                 ?>
