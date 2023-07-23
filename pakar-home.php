@@ -90,7 +90,7 @@ if (!empty($_POST['simpan1'])){
   $oleh="pakar";
   $status="setuju";
 
-    $sql1 = "INSERT INTO tb_kesimpulan_gigi_new (solusi, fakta, oleh, status) VALUES ('$solusi', '$fakta', '$oleh', '$status')";
+    $sql1 = "INSERT INTO tb_kesimpulan_gigi (solusi, fakta, oleh, status) VALUES ('$solusi', '$fakta', '$oleh', '$status')";
     if (mysqli_query($connect,$sql1)){
     	echo "<script>alert('Berhasil memasukan fakta baru!'); window.location=('pakar-home.php');</script>";
 	//echo "<script type='text/javascript'>window.location.replace('pakar-mode.php');</script>";

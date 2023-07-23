@@ -97,7 +97,7 @@ function question($kode){
 
 function kesimpulan($penyakit){
     include 'koneksi.php';
-    $sql = "SELECT * from tb_kesimpulan_gigi_new WHERE solusi='$penyakit' AND status='setuju'";
+    $sql = "SELECT * from tb_kesimpulan_gigi WHERE solusi='$penyakit' AND status='setuju'";
     $data = mysqli_query($connect,$sql);
     while ($row = mysqli_fetch_assoc($data)) {
         echo '<p>-'.$row['fakta'].'</p>';
