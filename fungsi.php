@@ -35,6 +35,11 @@ function answer($kode){
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode='>Tidak</a>";
     }
 
+    // Solusi
+    if($kode=='m9-a'){
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=s5'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=s6'>Tidak</a>";
+    }
 
 
 }
