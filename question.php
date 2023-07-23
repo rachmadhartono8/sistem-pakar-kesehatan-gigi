@@ -27,7 +27,7 @@
 
                 <?php
                 include ('koneksi.php');
-                $kode='n1';
+                $kode='G01';
                 session_start();
                 echo "<p>Hai, ".$_SESSION['nama']." (".$_SESSION['umur']." th)</p>";
                     
@@ -46,7 +46,7 @@
                 <div class="option">
                     <?php 
                         include "fungsi.php";
-                        answer($kode);                    
+                        question($kode);                    
                     ?>
                     
                    

@@ -87,7 +87,26 @@
                 }
                 
                 else{
-                    echo "<p>Maka kamu harus melakukan: <strong style='color:green'>".$row['isi_solusi']."</strong></p>";
+                    echo "<p>Kamu mengalami penyakit gigi: <strong style='color:green'>".$row['isi_solusi']."</strong></p>";
+                }
+                
+                ?>
+                <?php
+                $sql = "SELECT * from tb_solusi WHERE kode_solusi='$kode'";
+                $data = mysqli_query($connect,$sql);
+                $row = mysqli_fetch_assoc($data);
+
+                if ($row['kode_solusi']=="x-1" || $row['isi_solusi']=="x-2" || $row['isi_solusi']=="x-3" || $row['isi_solusi']=="x-4" || $row['isi_solusi']=="x-5") {
+                     echo "<center><p><strong style='color:red'>SISTEM TIDAK MENEMUKAN JAWABAN !</strong></p></center><hr>";
+                     ?>
+
+                     <!------------------------MASUKAN KEPADA SISTEM -------------------------------->
+                        <!------------------------MASUKAN KEPADA SISTEM -------------------------------->                      
+                     <?php 
+                }
+                
+                else{
+                    echo "<p>Kamu mengalami penyakit gigi: <strong style='color:green'>".$row['isi_solusi']."</strong></p>";
                 }
                 
                 ?>

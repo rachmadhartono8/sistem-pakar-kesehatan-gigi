@@ -1,41 +1,62 @@
 <?php
 
-function answer($kode){
+function question($kode){
     // Pertanyaan
-    
-    if($kode=='n1'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=n2'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=n3'>Tidak</a>";
+
+    if($kode=='G01'){
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=G02'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=G04'>Tidak</a>";
     }
-    if($kode=='n2'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S200'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=n4'>Tidak</a>";
+    if($kode=='G02'){
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=G03'>Ya</a>";
+        // solusi
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=P01'>Tidak</a>";
     }
 
-    if($kode=='n3'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=S203'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=S200'>Tidak</a>";
+    if($kode=='G03'){
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S203'>Ya</a>";
+        // ya akan merefer ke Periodontitis
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode='>Tidak</a>";
     }
 
-    if($kode=='n4'){
+    if($kode=='G04'){
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=G14'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=G10'>Tidak</a>";
+    }
+
+    if($kode=='G14'){
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S204'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=n6'>Tidak</a>";
-    }
-
-    if($kode=='n5'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S200'>Ya</a>";
+        // Stomatitis Aftosa
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=n8'>Tidak</a>";
     }
 
-    if($kode=='n6'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=n7'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode='>Tidak</a>";
+    if($kode=='G10'){
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S205'>Ya</a>";
+        // Cheilitis
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=G06'>Tidak</a>";
     }
 
-    if($kode=='n7'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S206'>Ya</a>";
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode='>Tidak</a>";
+    if($kode=='G06'){
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=G07'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=G16'>Tidak</a>";
     }
+    if($kode=='G07'){
+        // echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode='>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=G08'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=G07'>Tidak</a>";
+    }
+
+    if($kode=='G08'){
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S208'>Ya</a>";
+        // Cheilitis
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=G06'>Tidak</a>";
+    }
+
+    if($kode=='G16'){
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=G14'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=G16'>Tidak</a>";
+    }
+
 
 
     // Solusi
@@ -96,5 +117,46 @@ function solusi($kode){
         $penyakit = "Medikasi";
         kesimpulan($penyakit);
     }
+    if ($kode=='S208') {
+        $penyakit = "Medikasi & Perawatan Saluran Akar";
+        kesimpulan($penyakit);
+    }
 }
+
+
+// function penyakitGigi($penyakit){
+//     include 'koneksi.php';
+//     $sql = "SELECT * from tb_kesimpulan_gigi WHERE solusi='$penyakit' AND status='setuju'";
+//     $data = mysqli_query($connect,$sql);
+//     while ($row = mysqli_fetch_assoc($data)) {
+//         echo '<p>-'.$row['fakta'].'</p>';
+//     }  
+// }
+
+// function penyakit($kode){    
+//     if ($kode=='S200') {
+//         $penyakit = "Scaling";
+//         kesimpulan($penyakit);        
+//     }
+//     if ($kode=='S203') {
+//         $penyakit = "Root Planing";
+//         kesimpulan($penyakit);        
+//     }
+//     if ($kode=='S204') {
+//         $penyakit = "Medikasi";
+//         kesimpulan($penyakit);
+//     }
+//     if ($kode=='S205') {
+//         $penyakit = "Medikasi";
+//         kesimpulan($penyakit);
+//     }
+//     if ($kode=='S206') {
+//         $penyakit = "Medikasi";
+//         kesimpulan($penyakit);
+//     }
+//     if ($kode=='S207') {
+//         $penyakit = "Medikasi";
+//         kesimpulan($penyakit);
+//     }
+// }
 ?>
