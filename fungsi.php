@@ -59,7 +59,7 @@ function question($kode){
     }
 
     if($kode=='G08'){
-        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=S208'>Ya</a>";
+        echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='solusi.php?kode=P07'>Ya</a>";
         // Cheilitis
         echo "<a class='btn col-sm-1 mrg btn-lg btn-outline-light' href='question.php?kode=G06'>Tidak</a>";
     }
