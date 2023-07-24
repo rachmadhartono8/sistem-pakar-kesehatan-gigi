@@ -28,7 +28,7 @@
 
 </head>
 
-<body>
+<body style="padding-bottom: 0px!important;">
   <?php
   include('navbar.php');
   ?>
@@ -135,7 +135,7 @@
               </div>
             </div>
             <div class="modal-footer">
-              <button type="submit" class="btn btn-info">Lanjut ></button>
+              <button type="submit" class="btn btn-info" style="background-color:#6e6692";>Lanjut</button>
             </div>
           </form>
         </div>

@@ -1,5 +1,5 @@
 <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top bg-dark">
+  <header id="header" class="fixed-top" style="background-color: #6e6692;">
     <div class="container d-flex align-items-center">
 
       <!-- <h1 class="logo me-auto"><a href="index.html">Arsha</a></h1> -->
