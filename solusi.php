@@ -31,6 +31,8 @@
                 session_start();
                 echo "<p>Nama : ".$_SESSION['nama']."</p>";
                 echo "<p>Umur : ".$_SESSION['umur']."</p>";
+                echo "<p>Nomor Telpon : ".$_SESSION['nomor']."</p>";
+                echo "<p>Alamat : ".$_SESSION['alamat']."</p>";
                     
                     if(isset($_GET['kode'])){
                         $kode=$_GET['kode'];
@@ -60,7 +62,7 @@
                             <div class="card-body">
                              <form action="solusi.php" method="post">
                               <div class="form-group">
-                                <label for="exampleFormControlSelect1">Pilih Jurusan :</label>
+                                <label for="exampleFormControlSelect1">Pilih Penyakit :</label>
                                 <select name="solusi" class="form-control" id="exampleFormControlSelect2">
                                 <?php 
                                 include "koneksi.php";
@@ -106,7 +108,7 @@
                 }
                 
                 else{
-                    echo "<p>Kamu mengalami penyakit gigi: <strong style='color:green'>".$row['isi_solusi']."</strong></p>";
+                    echo "<p>Tindakan medis yang di harus dilakukan: <strong style='color:green'>".$row['tindakan']."</strong></p>";
                 }
                 
                 ?>

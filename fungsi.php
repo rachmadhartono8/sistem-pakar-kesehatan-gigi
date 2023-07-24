@@ -102,13 +102,12 @@ function kesimpulan($penyakit){
     while ($row = mysqli_fetch_assoc($data)) {
         echo '<p>-'.$row['fakta'].'</p>';
     }
-    
-    $sql = "SELECT * from tb_kesimpulan_gigi WHERE solusi='$penyakit' AND status='setuju'";
-    $data = mysqli_query($connect,$sql);
-    while ($row = mysqli_fetch_assoc($data)) {
-        // echo '<p>-'.$row['fakta'].'</p>';
-    echo '<br>-'.$row['tindakan'].'</br>';
-    }
+
+    // $sql = "SELECT * from tb_kesimpulan_gigi WHERE solusi='$penyakit' AND status='setuju'";
+    // $data = mysqli_query($connect,$sql);
+    // while ($row = mysqli_fetch_assoc($data)) {
+    // echo '<br>-'.$row['tindakan'].'</br>';
+    // }
 }
 
 // function solusi($kode){    

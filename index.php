@@ -74,7 +74,7 @@
         <div class="modal-dialog modal-sm" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Identitas User</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Identitas User/Pasien</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -88,6 +88,14 @@
                 <div class="form-group">
                   <label for="message-text" class="col-form-label">Umur :</label>
                   <input type="number" name="umur" class="form-control col-sm-8" placeholder="isikan umur anda" required >
+                </div>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Nomor handphone :</label>
+                  <input type="text" name="nomor" class="form-control" id="input-ame" placeholder="isikan nomor telefon anda" required autofocus >
+                </div>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">Alamat :</label>
+                  <input type="text" name="alamat" class="form-control" id="input-ame" placeholder="isikan alamat anda" required autofocus >
                 </div>
                 </div>
                 <div class="modal-footer">

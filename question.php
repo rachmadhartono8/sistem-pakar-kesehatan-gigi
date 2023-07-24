@@ -30,6 +30,7 @@
                 $kode='G01';
                 session_start();
                 echo "<p>Hai, ".$_SESSION['nama']." (".$_SESSION['umur']." th)</p>";
+                // echo "<p>Hai, ".$_SESSION['nomor']." (".$_SESSION['alamat']." )</p>";
                     
                     if(isset($_GET['kode'])){
                         $kode=$_GET['kode'];

@@ -40,7 +40,7 @@
 			  <div class="card-body">
 			  	<form action="pakar-home.php" method="post">
 				  <div class="form-group">
-				    <label for="exampleFormControlSelect1">Pilih Jurusan :</label>
+				    <label for="exampleFormControlSelect1">Pilih Penyakit :</label>
 				    <select name="solusi" class="form-control" id="exampleFormControlSelect2">
 				    <?php 
 				    include "koneksi.php";
