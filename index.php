@@ -180,10 +180,10 @@
   <!-- ======= Footer ======= -->
   <footer 
   class="text-center text-lg-start text-white"
-  style="background-color: #45526e"
+  style="background-color: #514170"
   id="footer">
 
-    <div class="footer-newsletter">
+    <div class="footer-newsletter pb-4 pt-3">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6">
@@ -250,7 +250,7 @@
       </div>
     </div>
 
-    <div class="container footer-bottom clearfix">
+    <div class="container footer-bottom clearfix pb-3">
       <div class="copyright">
         &copy; Copyright <strong><span>Nefriprudensia Adira</span></strong>. All Rights Reserved
       </div>
