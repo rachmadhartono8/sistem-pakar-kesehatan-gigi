@@ -443,6 +443,7 @@ body {
   #hero .btn-get-started:hover {
     background: #209dd8;
   }
+
   
   #hero .btn-watch-video {
     font-size: 16px;
@@ -505,6 +506,8 @@ body {
       width: 70%;
     }
   }
+
+  
   
   @media (max-width: 575px) {
     #hero .hero-img img {
