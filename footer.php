@@ -1,7 +1,7 @@
 <!-- Remove the container if you want to extend the Footer to full width. -->
 <!-- ======= Footer ======= -->
-<footer id="footer">
-
+<!-- <footer id="footer"> -->
+<footer class="text-center text-lg-start text-white" style="background-color: #514170" id="footer">
 <div class="footer-newsletter">
   <div class="container">
     <div class="row justify-content-center">
@@ -21,11 +21,11 @@
     <div class="row">
 
       <div class="col-lg-3 col-md-6 footer-contact">
-        <h3>Nefri</h3>
-        <p>
-          A108 Adam Street <br>
-          New York, NY 535022<br>
-          United States <br><br>
+      <h3>Amani Dental</h3>
+            <p>
+            Jl. Flamboyan, Beji Tim. <br>
+            Kecamatan Beji, Kota Depok<br>
+            Jawa Barat 16422<br><br>
           <strong>Phone:</strong> +1 5589 55488 55<br>
           <strong>Email:</strong> info@example.com<br>
         </p>

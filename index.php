@@ -144,76 +144,9 @@
     </div>
     </div>
 
-    <!-- Marketing messaging and featurettes
-      ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing">
 
-      <section id="clients" class="clients section-bg">
-        <div class="container">
-
-          <div class="row" data-aos="zoom-in">
-
-            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-              <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-              <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-              <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-              <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-              <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-              <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-            </div>
-
-          </div>
-
-        </div>
-      </section><!-- End Cliens Section -->
-
-      <!-- Three columns of text below the carousel -->
-      <div class="d-flex justify-content-center">
-        <!-- <div class="col-lg-4">
-            <img class="rounded-circle" src="image/1.png" alt="Generic placeholder image" width="140" height="140">
-            <h2>Katon Gilang Bagaskara</h2>
-            <p>sebagai Programer</p>
-            <p>(71150009)</p>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          </div> -->
-        <!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="rounded-circle" src="image/images2.png" alt="Generic placeholder image" width="140" height="140">
-          <h2>Nefriprudensia Adira</h2>
-          <p>Tugas Akhir Jurusan Informatika</p>
-          <p>(71150055)</p>
-          <p>Tugas akhir diajukan guna menyelesaikan program studi sarjana</p>
-        </div>
-        <!-- /.col-lg-4 -->
-        <!-- <div class="col-lg-4">
-            <img class="rounded-circle" src="image/3.png" alt="Generic placeholder image" width="140" height="140">
-            <h2>Debora Syebat Nazir</h2>
-            <p>sebagai Project Manager</p>
-            <p>(71150088)</p>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          </div> -->
-        <!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-  </main>
-
-  <main id="main">
+  <!-- <main id="main"> -->
 
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients section-bg">
@@ -351,39 +284,38 @@
             <img src="image/drg.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
+            <h3>Dokter Gigi Alyssa Amany</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Dokter Gigi Umum alumnus Universitas Prof. Dr. Moestopo (Beragama).
             </p>
 
             <div class="skills-content">
 
               <div class="progress">
-                <span class="skill">HTML <i class="val">100%</i></span>
+                <span class="skill">Scaling <i class="val">100%</i></span>
                 <div class="progress-bar-wrap">
                   <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
-                <span class="skill">CSS <i class="val">90%</i></span>
+                <span class="skill">PSA (Perawatan Saluran Akar) <i class="val">100%</i></span>
                 <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
-                <span class="skill">JavaScript <i class="val">75%</i></span>
+                <span class="skill">Perawatan Orthodonti <i class="val">100%</i></span>
                 <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 
               <div class="progress">
-                <span class="skill">Photoshop <i class="val">55%</i></span>
+                <span class="skill">Implan Gigi <i class="val">100%</i></span>
                 <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
               </div>
 

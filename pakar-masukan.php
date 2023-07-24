@@ -18,7 +18,7 @@
 
   <body>
 
-    <nav class="navbar navbar-dark fixed-top bg-info flex-md-nowrap p-0 shadow">
+    <nav class="navbar navbar-dark fixed-top flex-md-nowrap p-0 shadow" style="background-color: #6e6692;">
       <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Dashboard Pakar</a>
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">

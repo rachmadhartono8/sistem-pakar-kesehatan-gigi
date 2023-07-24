@@ -103,7 +103,7 @@
                 }
                 
                 else{
-                    echo "<p>Kamu mengalami penyakit gigi: <strong style='color:green'>".$row['isi_solusi']."</strong></p>";
+                    echo "<p>Kamu mengalami penyakit gigi: <strong style='color:white'>".$row['isi_solusi']."</strong></p>";
                 }
                 
                 ?>
@@ -122,7 +122,7 @@
                 }
                 
                 else{
-                    echo "<p>Tindakan medis yang di harus dilakukan: <strong style='color:green'>".$row['tindakan']."</strong></p>";
+                    echo "<p>Tindakan medis yang di harus dilakukan: <strong style='color:white'>".$row['tindakan']."</strong></p>";
                 }
                 
                 ?>
@@ -139,6 +139,7 @@
 
 
     </main>
+    <?php include ('footer.php'); ?>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
