@@ -107,7 +107,7 @@
 
     <!---------------- MODAL ----------------->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-dialog modal-md" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="exampleModalLabel">Identitas User/Pasien</h5>
@@ -126,16 +126,16 @@
                 <input type="number" name="umur" class="form-control col-sm-8" placeholder="isikan umur anda" required>
               </div>
               <div class="form-group">
-                <label for="recipient-name" class="col-form-label">Nomor handphone :</label>
+                <label for="recipient-name" class="col-form-label">Nomor Handphone :</label>
                 <input type="text" name="nomor" class="form-control" id="input-ame" placeholder="isikan nomor telefon anda" required autofocus>
               </div>
-              <div class="form-group">
+              <div class="form-group modal-md">
                 <label for="recipient-name" class="col-form-label">Alamat :</label>
                 <input type="text" name="alamat" class="form-control" id="input-ame" placeholder="isikan alamat anda" required autofocus>
               </div>
             </div>
             <div class="modal-footer">
-              <button type="submit" class="btn btn-info" style="background-color:#6e6692";>Lanjut</button>
+              <button type="submit" class="btn btn-primary" style="background-color:#6e6692";>Lanjut</button>
             </div>
           </form>
         </div>
