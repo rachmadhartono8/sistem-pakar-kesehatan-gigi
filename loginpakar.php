@@ -29,7 +29,7 @@
           <input type="checkbox" value="remember-me"> Remember me
         </label>
       </div>
-      <button class="btn btn-lg btn-info btn-block" type="submit">Sign in</button>
+      <button class="btn btn-lg btn-block" type="submit" style="background-color:#6e6692"; >Sign in</button>
       <p class="mt-5 mb-3 text-muted">&copy; Nefriprudensia Adira 2023</p>
     </form>
   </body>

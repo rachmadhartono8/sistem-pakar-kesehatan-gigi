@@ -4,7 +4,7 @@
 
       <!-- <h1 class="logo me-auto"><a href="index.html">Arsha</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo me-auto"><img src="image/icon2.png" alt="" class="img-fluid"></a>
+      <a href="index.php" class="logo me-auto"><img src="image/icon2.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
