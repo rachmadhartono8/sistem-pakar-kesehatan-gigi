@@ -140,7 +140,7 @@ if (!empty($_POST['masukan'])){
 $fakta= $_POST['fakta'];
 $solusi=$_POST['solusi'];
 $oleh=$_SESSION['nama'];
-$status="menunggu";
+$status="setuju";
 
 $sql1 = "INSERT INTO tb_kesimpulan_gigi (solusi, fakta, oleh, status) VALUES ('$solusi', '$fakta', '$oleh', '$status')";
 if (mysqli_query($connect,$sql1)){
