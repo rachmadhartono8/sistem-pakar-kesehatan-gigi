@@ -286,6 +286,10 @@
      <!-- ======= Why Us Section ======= -->
      <section id="why-us" class="why-us section-bg">
       <div class="container-fluid" data-aos="fade-up">
+      <!-- <div class="row">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+            <img src="image/sakitgigi.png" class="img-fluid" alt="">
+          </div> -->
 
         <div class="row">
 
@@ -332,7 +336,7 @@
 
           </div>
 
-          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/why-us.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("image/sakitgigi.png");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
         </div>
 
       </div>
@@ -344,7 +348,7 @@
 
         <div class="row">
           <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
-            <img src="assets/img/skills.png" class="img-fluid" alt="">
+            <img src="image/drg.png" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
             <h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
