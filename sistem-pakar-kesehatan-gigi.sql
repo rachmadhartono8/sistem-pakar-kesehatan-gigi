@@ -34,7 +34,7 @@ CREATE TABLE `tb_admin` (
 
 LOCK TABLES `tb_admin` WRITE;
 /*!40000 ALTER TABLE `tb_admin` DISABLE KEYS */;
-INSERT INTO `tb_admin` VALUES ('admin','admin');
+INSERT INTO `tb_admin` VALUES ('admin','admin'),('user','user'),('admin','21232f297a57a5a743894a0e4a801fc3');
 /*!40000 ALTER TABLE `tb_admin` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -48,12 +48,12 @@ DROP TABLE IF EXISTS `tb_kesimpulan_gigi`;
 CREATE TABLE `tb_kesimpulan_gigi` (
   `kode_kesimpulan` int(11) NOT NULL AUTO_INCREMENT,
   `solusi` varchar(50) NOT NULL,
-  `tindakan` varchar(50) NOT NULL,
+  `tindakan` varchar(50) DEFAULT NULL,
   `fakta` varchar(100) NOT NULL,
   `oleh` varchar(100) NOT NULL,
   `status` varchar(100) NOT NULL,
   PRIMARY KEY (`kode_kesimpulan`)
-) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -62,7 +62,7 @@ CREATE TABLE `tb_kesimpulan_gigi` (
 
 LOCK TABLES `tb_kesimpulan_gigi` WRITE;
 /*!40000 ALTER TABLE `tb_kesimpulan_gigi` DISABLE KEYS */;
-INSERT INTO `tb_kesimpulan_gigi` VALUES (1,'Gingvitis','scaling','Gusi Kemerahan','pakar','setuju'),(2,'Gingvitis','scaling','Mudah Berdarah','pakar','setuju'),(3,'Periodontitis','scaling & root planing','Gusi Kemerahan','pakar','setuju'),(4,'Periodontitis','scaling & root planing','Mudah Berdarah','pakar','setuju'),(5,'Periodontitis','scaling & root planing','Gigi goyang','pakar','setuju'),(6,'Stomatitis Aftosa','medikasi','Luka pada mulut','pakar','setuju'),(7,'Stomatitis Aftosa','medikasi','Sulit mengunyah','pakar','setuju'),(8,'Halitosis','medikasi','Bau mulut','pakar','setuju'),(9,'Halitosis','medikasi','Karang gigi','pakar','setuju'),(10,'Cheilitis','medikasi','Luka pada mulut','pakar','setuju'),(11,'Cheilitis','medikasi','Bibir kering','pakar','setuju'),(12,'Abses Periodontal','medikasi & perawatan saluran akar','Gusi bengkak','pakar','setuju'),(13,'Abses Periodontal','medikasi & perawatan saluran akar','Demam','pakar','setuju'),(14,'Abses Periodontal','medikasi & perawatan saluran akar','Sakit gigi','pakar','setuju'),(15,'Karies Gigi','perawatan saluran akar','Gigi berlubang','pakar','setuju'),(16,'Karies Gigi','perawatan saluran akar','Sulit mengunyah','pakar','setuju');
+INSERT INTO `tb_kesimpulan_gigi` VALUES (1,'Gingvitis','scaling','kamu mengalami gusi kemerahan','pakar','setuju'),(2,'Gingvitis','scaling','kamu mengalami gigi mudah berdarah','pakar','setuju'),(3,'Periodontitis','scaling & root planing','Gusi Kemerahan','pakar','setuju'),(4,'Periodontitis','scaling & root planing','Mudah Berdarah','pakar','setuju'),(5,'Periodontitis','scaling & root planing','Gigi goyang','pakar','setuju'),(6,'Stomatitis Aftosa','medikasi','Luka pada mulut','pakar','setuju'),(7,'Stomatitis Aftosa','medikasi','Sulit mengunyah','pakar','setuju'),(8,'Halitosis','medikasi','Bau mulut','pakar','setuju'),(9,'Halitosis','medikasi','Karang gigi','pakar','setuju'),(10,'Cheilitis','medikasi','Luka pada mulut','pakar','setuju'),(11,'Cheilitis','medikasi','Bibir kering','pakar','setuju'),(12,'Abses Periodontal','medikasi & perawatan saluran akar','Gusi bengkak','pakar','setuju'),(13,'Abses Periodontal','medikasi & perawatan saluran akar','Demam','pakar','setuju'),(14,'Abses Periodontal','medikasi & perawatan saluran akar','Sakit gigi','pakar','setuju'),(15,'Karies Gigi','perawatan saluran akar','Gigi berlubang','pakar','setuju'),(16,'Karies Gigi','perawatan saluran akar','Sulit mengunyah','pakar','setuju'),(20,'Cheilitis',NULL,'Suka Memasak','pakar','setuju'),(21,'Gingvitis',NULL,'Suka Memasak','pakar','setuju'),(22,'Gingvitis',NULL,'Suka Memasak','pakar','setuju'),(23,'Gingvitis',NULL,'suka memasak','pakar','menunggu'),(24,'Karies',NULL,'Suka Memasak','pakar','menunggu'),(25,'Gingvitis',NULL,'kamu mengalami gusi kemerahan saat sikat gigi','pakar','setuju'),(26,'Gingvitis',NULL,'','pakar','menunggu'),(27,'Gingvitis',NULL,'','pakar','menunggu'),(28,'Gingvitis',NULL,'','pakar','menunggu'),(29,'Gingvitis',NULL,'','pakar','menunggu'),(30,'Gingvitis',NULL,'Suka Memasak Daging ayam','pakar','setuju');
 /*!40000 ALTER TABLE `tb_kesimpulan_gigi` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -76,6 +76,7 @@ DROP TABLE IF EXISTS `tb_penyakit`;
 CREATE TABLE `tb_penyakit` (
   `kode_solusi` varchar(50) NOT NULL,
   `isi_solusi` varchar(200) NOT NULL,
+  `tindakan` varchar(200) NOT NULL,
   PRIMARY KEY (`kode_solusi`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -86,7 +87,7 @@ CREATE TABLE `tb_penyakit` (
 
 LOCK TABLES `tb_penyakit` WRITE;
 /*!40000 ALTER TABLE `tb_penyakit` DISABLE KEYS */;
-INSERT INTO `tb_penyakit` VALUES ('P01','Gingvitis'),('P02','Periodontitis'),('P03','Stomatitis Aftosa'),('P04','Halitosis'),('P05','Cheilitis'),('P06','Abses Periodontal'),('P07','Karies Gigi'),('S11','x-1'),('S12','x-2'),('S23','x-3'),('S24','x-4'),('S31','x-5');
+INSERT INTO `tb_penyakit` VALUES ('P01','Gingvitis','scaling'),('P02','Periodontitis','scaling & root planing'),('P03','Stomatitis Aftosa','medikasi'),('P04','Halitosis','medikasi'),('P05','Cheilitis','medikasi'),('P06','Abses Periodontal','medikasi & perawatan saluran akar'),('P07','Karies Gigi','perawatan saluran akar'),('S11','x-1',''),('S12','x-2',''),('S23','x-3',''),('S24','x-4',''),('S31','x-5','');
 /*!40000 ALTER TABLE `tb_penyakit` ENABLE KEYS */;
 UNLOCK TABLES;
 
