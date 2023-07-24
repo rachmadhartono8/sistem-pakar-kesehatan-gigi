@@ -142,7 +142,7 @@ $solusi=$_POST['solusi'];
 $oleh=$_SESSION['nama'];
 $status="menunggu";
 
-$sql1 = "INSERT INTO tb_kesimpulan (solusi, fakta, oleh, status) VALUES ('$solusi', '$fakta', '$oleh', '$status')";
+$sql1 = "INSERT INTO tb_kesimpulan_gigi (solusi, fakta, oleh, status) VALUES ('$solusi', '$fakta', '$oleh', '$status')";
 if (mysqli_query($connect,$sql1)){
     echo "<script>alert('Saran berhasil dimasukan, harus menunggu moderasi!'); window.location=('hapus-session.php');</script>";
 //echo "<script type='text/javascript'>window.location.replace('pakar-mode.php');</script>";
