@@ -19,7 +19,7 @@
 <body class="text-center">
     <form class="form-signin" action="proseslogin.php" method="POST">
       <a href="index.php"><img class="mb-4" src="image/icon.png" alt="" width="72" height="72"></a>
-      <h1 class="h3 mb-3 font-weight-normal">Login Sebagai Admin Sistem Pakar</h1>
+      <h1 class="h3 mb-3 font-weight-normal">Login Admin Sistem Pakar Amani Dental</h1>
       <label for="inputUsername" class="sr-only">Username</label>
       <input type="text" name="username" id="inputEmail" class="form-control" placeholder="Username" required autofocus>
       <label for="inputPassword" class="sr-only">Password</label>

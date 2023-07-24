@@ -40,6 +40,7 @@
               <thead>
                 <tr>
                   <th>Nama</th>
+                  <!-- <th>Jurusan</th> -->
                   <th>Jurusan</th>
                   <th>Fakta</th>
                   <th>Status</th>
@@ -49,7 +50,7 @@
               <tbody>
                   <?php
                   include "koneksi.php";
-                  $sql = "SELECT * from tb_kesimpulan WHERE status='menunggu' ORDER BY kode_kesimpulan DESC";
+                  $sql = "SELECT * from tb_kesimpulan_gigi WHERE status='menunggu' ORDER BY kode_kesimpulan DESC";
                   $data = mysqli_query($connect,$sql);
                   while ($row = mysqli_fetch_assoc($data)) {
                     echo "<tr>";
