@@ -92,7 +92,7 @@
                               </div>
                               <div class="form-group">
                                 <label for="exampleFormControlInput2">Masukan fakta:</label>
-                                <input type="text" name="fakta" class="form-control" id="exampleFormControlInput1" placeholder="contoh : Terasa ngilu pada gigi">
+                                <input type="text" name="fakta" class="form-control" id="exampleFormControlInput1" placeholder="Contoh : Terasa ngilu pada gigi">
                               </div>
                               <input type="submit" class="btn btn-info" name="masukan">
                             </form>    

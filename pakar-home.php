@@ -22,7 +22,7 @@
       <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Dashboard Pakar</a>
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
-          <a class="nav-link" href="proseslogout.php">Sign out</a>
+          <a class="nav-link btn" href="proseslogout.php">Sign out</a>
         </li>
       </ul>
     </nav>
@@ -36,7 +36,7 @@
             <h1 class="h2">Dashboard</h1>
           </div>
           <div class="card">
-			  <h5 class="card-header">Tambah Fakta Baru</h5>
+			  <h5 class="card-header">Tambah Data Fakta Baru</h5>
 			  <div class="card-body">
 			  	<form action="pakar-home.php" method="post">
 				  <div class="form-group">
@@ -56,7 +56,7 @@
 				  </div>
 				  <div class="form-group">
 				    <label for="exampleFormControlInput2">Masukan fakta :</label>
-				    <input type="text" name="fakta" class="form-control" id="exampleFormControlInput1" placeholder="contoh : Gusi terasa sakit">
+				    <input type="text" name="fakta" class="form-control" id="exampleFormControlInput1" placeholder="Contoh : Gusi terasa sakit">
 				  </div>
 				  <input type="submit" class="btn btn-info" style="background-color:#6e6692" name="simpan1">
 				</form>			    
