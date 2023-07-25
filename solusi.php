@@ -34,11 +34,10 @@
     
     <main class="batas-atas mt-5">
         <div class="card text-white mb-3" style="background-color:#645c8c">
-          <h5 class="card-header">Solusi</h5>
+          <h5 class="card-header">Identitas Pasien</h5>
           <div class="card-body text-left ukuran-20">
 
             <form method="post" action="solusi.php" enctype="multipart/form-data" role="form">
-
                 <?php
                 include ('koneksi.php');
                 //$kode='m01';

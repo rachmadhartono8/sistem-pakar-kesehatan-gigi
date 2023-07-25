@@ -60,7 +60,7 @@
             <p>
               Amani dental sangat ramah dengan anak
             </p>
-            <a href="#" class="btn-learn-more">Mulai Sistem Pakar</a>
+            <a href="question.php" class="btn-learn-more">Mulai Sistem Pakar</a>
           </div>
         </div>
      

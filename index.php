@@ -35,35 +35,12 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top" style="background-color: #6e6692;">
     <div class="container d-flex align-items-center">
-
-      <!-- <h1 class="logo me-auto"><a href="index.html">Arsha</a></h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
       <a href="index.php" class="logo me-auto"><img src="image/icon3.png" alt="" class="img-fluid" style="height:80px"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <li><a class="getstarted scrollto" href="loginpakar.php">Login Sistem Pakar</a></li>
         </ul>
@@ -75,8 +52,6 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
-    <!-- <img src="image/Amany dental 2.JPG" alt="" data-aos="fade-in"> -->
-
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
@@ -95,57 +70,7 @@
 
   </section><!-- End Hero -->
   <main role="main">
-    <!-- Carousel -->
-    
-    <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="first-slide" src="image/bg-1.gif" alt="First slide">
-            <div class="container">
-              <div class="carousel-caption text-left">
-                <h1>Sistem Pakar Kesehatan Gigi dan Mulut</h1>
-                <p></p>
-                <p><button type="button" class="btn btn-lg btn-info" data-target="#exampleModal" data-toggle="modal" data-whatever="@getbootstrap">Mulai</button></p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="second-slide" src="image/bg-3.jpeg" alt="Second slide">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Selamat datang di Sistem Pakar</h1>
-                <p>Sistem pakar di buat untuk mengetahui penyakit gigi</p>
-                <p><button type="button" class="btn btn-lg btn-info" data-target="#exampleModal" data-toggle="modal" data-whatever="@getbootstrap">Mulai</button></p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="third-slide" src="image/bg-2.jpg" alt="Third slide">
-            <div class="container">
-              <div class="carousel-caption text-right">
-                <h1>Sistem Pakar</h1>
-                <p></p>
-                <p><button type="button" class="btn btn-lg btn-info" data-target="#exampleModal" data-toggle="modal" data-whatever="@getbootstrap">Mulai</button></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>  -->
-    <!-- Carousel -->
-
+   
     <!---------------- MODAL ----------------->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-md" role="document">
@@ -184,46 +109,6 @@
       </div>
     </div>
     </div>
-
-
-
-  <!-- <main id="main"> -->
-
-    <!-- ======= Clients Section ======= -->
-    <!-- <section id="clients" class="clients section-bg">
-      <div class="container">
-
-        <div class="row" data-aos="zoom-in">
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="image/Amany dental 2.JPG" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="image/images2.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="image/sakitgigi.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="image/icongigi.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="image/drg.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="image/sakitgigi.png" class="img-fluid" alt="">
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-    <!-- End Cliens Section -->
 
       <!-- ======= About Us Section ======= -->
       <section id="about" class="about">
@@ -366,56 +251,6 @@
       </div>
     </section><!-- End Skills Section -->
 
-
-     <!-- ======= Services Section ======= -->
-     <!-- <section id="services" class="services section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Sed ut perspici</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-layer"></i></div>
-              <h4><a href="">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-    <!-- End Services Section -->
-
-
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq section-bg">
       <div class="container" data-aos="fade-up">
@@ -548,25 +383,8 @@
       </div>
     </section><!-- End Contact Section -->
 
-
-
   <!-- ======= Footer ======= -->
   <footer class="text-center text-lg-start text-white" style="background-color: #514170" id="footer">
-
-    <!-- <div class="footer-newsletter pb-4 pt-3">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
     <div class="footer-top">
       <div class="container">
         <div class="row">
@@ -595,10 +413,6 @@
             <h4>Our Services</h4>
             <ul>
             <li><i class="bx bx-chevron-right"></i> <a href="question.php">Sistem Pakar</a></li>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> -->
             </ul>
           </div>
 
@@ -606,11 +420,7 @@
             <h4>Our Social Networks</h4>
             <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
             <div class="social-links mt-3">
-              <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> -->
               <a href="https://www.instagram.com/amanydentalclinic_/?hl=id#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
             </div>
           </div>
 
@@ -623,10 +433,6 @@
         &copy; Copyright <strong><span>Nefriprudensia Adira</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
         Designed by <a href="https://nefri.com/">Nefriprudensia Adira</a>
       </div>
     </div>
@@ -639,12 +445,8 @@
   <script src="vendor/swiper/swiper-bundle.min.js"></script>
   <script src="vendor/waypoints/noframework.waypoints.js"></script>
   <script src="vendor/php-email-form/validate.js"></script>
-
   <!-- Template Main JS File -->
   <script src="js/main.js"></script>
-  <!-- Bootstrap core JavaScript
-    ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
 
