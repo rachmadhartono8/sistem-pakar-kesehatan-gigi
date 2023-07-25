@@ -42,11 +42,12 @@
 
      <!-- ======= Contact Section ======= -->
      <section id="contact" class="contact">
+     <main class="batas-atas mt-5">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Professional dental care of the highest standards in a Comfortable and Relaxed environment.</p>
+          <p>Klinik Gigi Profesional pilihan keluarga.</p>
         </div>
 
         <div class="row">

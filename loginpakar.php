@@ -18,7 +18,7 @@
 </head>
 <body class="text-center">
     <form class="form-signin" action="proseslogin.php" method="POST">
-      <a href="index.php"><img class="mb-4" src="image/icon.png" alt="" width="72" height="72"></a>
+      <a href="index.php"><img class="mb-4" src="image/icon2.png" alt="" width="72" height="72"></a>
       <h1 class="h3 mb-3 font-weight-normal">Login Admin Sistem Pakar Amani Dental</h1>
       <label for="inputUsername" class="sr-only">Username</label>
       <input type="text" name="username" id="inputEmail" class="form-control" placeholder="Username" required autofocus>
@@ -29,7 +29,7 @@
           <input type="checkbox" value="remember-me"> Remember me
         </label>
       </div>
-      <button class="btn btn-lg btn-block" type="submit" style="background-color:#6e6692"; >Sign in</button>
+      <button class="btn btn-info btn-block" type="submit" style="background-color:#6e6692"; >Sign in</button>
       <p class="mt-5 mb-3 text-muted">&copy; Nefriprudensia Adira 2023</p>
     </form>
   </body>

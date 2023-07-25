@@ -1,10 +1,10 @@
 <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top" style="background-color: #6e6692;">
+  <header id="header" class="fixed-top" style="background-color: #656893;">
     <div class="container d-flex align-items-center">
 
       <!-- <h1 class="logo me-auto"><a href="index.html">Arsha</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.php" class="logo me-auto"><img src="image/icon2.png" alt="" class="img-fluid"></a>
+      <a href="index.php" class="logo me-auto"><img src="image/icon3.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -31,7 +31,7 @@
             </ul>
           </li> -->
           <li><a class="nav-link scrollto" href="contact.php">Contact</a></li>
-          <li><a class="getstarted scrollto" href="loginpakar.php">Login Pakar</a></li>
+          <li><a class="getstarted scrollto" href="loginpakar.php">Login Sistem Pakar</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

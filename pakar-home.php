@@ -58,7 +58,7 @@
 				    <label for="exampleFormControlInput2">Masukan fakta :</label>
 				    <input type="text" name="fakta" class="form-control" id="exampleFormControlInput1" placeholder="contoh : Gusi terasa sakit">
 				  </div>
-				  <input type="submit" class="btn btn-info" name="simpan1">
+				  <input type="submit" class="btn btn-info" style="background-color:#6e6692" name="simpan1">
 				</form>			    
 			  </div>
 			</div>
