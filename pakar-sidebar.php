@@ -10,7 +10,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="pakar-masukan.php">
                   <span data-feather="file"></span>
-                  Masukan Pengguna
+                  Validasi Fakta
                 </a>
               </li>
             </ul>

@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="image/icon.png">
 
-    <title>Masukan Pengguna</title>
+    <title>Validasi Fakta</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -34,7 +34,7 @@
 
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
           <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-            <h1 class="h2">Masukan Pengguna</h1>
+            <h1 class="h2">Validasi Fakta</h1>
           </div>
           <div class="table-responsive">
             <table class="table table-striped table-sm" style="text-align: center;" >
@@ -42,8 +42,8 @@
                 <tr>
                   <th>Nama</th>
                   <!-- <th>Jurusan</th> -->
-                  <th>Jurusan</th>
-                  <th>Fakta</th>
+                  <th>Penyakit</th>
+                  <th>Isi Fakta</th>
                   <th>Status</th>
                   <th colspan="2">Action</th>
                 </tr>
