@@ -32,14 +32,6 @@
   <?php
   include('navbar.php');
   ?>
-  <!-- ======= Header ======= -->
-  <!-- <header id="header" class="fixed-top" style="background-color: #6e6692;"> -->
-    <!-- <div class="container d-flex align-items-center"> -->
-
-      <!-- <h1 class="logo me-auto"><a href="index.html">Arsha</a></h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="image/icon2.png" alt="" class="img-fluid"></a> -->
-
      <!-- ======= Contact Section ======= -->
      <section id="contact" class="contact">
      <main class="batas-atas mt-5">

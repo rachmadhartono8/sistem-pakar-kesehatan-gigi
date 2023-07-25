@@ -7,4 +7,5 @@ Web Sistem Pakar Kesehatan Gigi : web pengambilan keputusan menggunakan metode f
 3. Import file database "sistem-pakar-kesehatan-gigi.sql" ke dalam phpmyadmin
 4. Atur database di file koneksi.php
 5. Buka browser dan akses halaman web
+6. Dikembangkan oleh rachmadhartono
 # sistem-pakar-kesehatan-gigi
