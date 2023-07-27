@@ -129,6 +129,7 @@
             <br>
             <div class="text-center">
                 <a style="margin-bottom: 10px;" href="hapus-session.php" class="btn btn-outline-light col-sm-2">Akhiri</a>
+                <a style="margin-bottom: 10px;" href="simpan-data.php" class="btn btn-outline-light col-sm-2">Simpan</a>
             </div>
           </div>
         </div>
