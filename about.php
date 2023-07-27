@@ -34,7 +34,7 @@
   ?>
   
 <!-- ======= About Us Section ======= -->
-<section id="about" class="about align-items-center text-white mt-5" style="background-color: #656893;">
+<section id="about" class="about align-items-center text-white mt-5" style="background-color: #676792;">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title colour-white">
@@ -44,7 +44,9 @@
         <div class="row content">
         <div class="col-lg-6">
             <p>
-            Amani Dental, Visi:
+            Amani Dental
+            <p>
+            Visi:
             "Menjadi Klinik Gigi Terbaik dalam Pelayanan serta Meniadi Solusi Kesehatan Gigi dan Mulut Pilihan Utama Masyarakat.".
             </p>
             <p>

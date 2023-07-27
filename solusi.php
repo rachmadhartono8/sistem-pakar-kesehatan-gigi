@@ -131,14 +131,9 @@
                 <a style="margin-bottom: 10px;" href="hapus-session.php" class="btn btn-outline-light col-sm-2">Akhiri</a>
             </div>
           </div>
-          
         </div>
-    
-
-
-
     </main>
-    <?php include ('footer.php'); ?>
+    <?php include ('footer2.php'); ?>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
