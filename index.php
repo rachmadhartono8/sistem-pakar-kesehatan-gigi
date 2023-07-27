@@ -7,12 +7,9 @@
   <meta name="description" content="website sistem pakar">
   <meta name="author" content="mr k">
   <link rel="icon" href="image/icon.png">
-
   <title>Sistem Pakar Kesehatan Gigi</title>
-
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" crossorigin="anonymous">
-
   <!-- Vendor CSS Files -->
   <link href="vendor/aos/aos.css" rel="stylesheet">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,28 +18,24 @@
   <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
   <!-- Custom styles for this template -->
   <link href="css/carousel.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-
 </head>
 
 <body style="padding-bottom: 0px!important;">
-  <?php
-  // include('navbar.php');
-  ?>
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top" style="background-color: #6e6692;">
+  <header id="header" class="fixed-top" style="background-color: #eeeee4;">
     <div class="container d-flex align-items-center">
-      <a href="index.php" class="logo me-auto"><img src="image/icon3.png" alt="" class="img-fluid" style="height:80px"></a>
+      <a href="index.php" class="logo me-auto"><img src="image/icon2.png" alt="" class="img-fluid" style="height:80px"></a>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="index.php">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="loginpakar.php">Login Sistem Pakar</a></li>
+          <!-- <li><a class="nav-link scrollto active text-black" href="index.php">Home</a></li> -->
+          <li><a class="nav-link scrollto text-black" href="index.php">Home</a></li>
+          <li><a class="nav-link scrollto text-black" href="about.php">About</a></li>
+          <li><a class="nav-link scrollto text-black" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto text-black" href="loginpakar.php">Login Sistem Pakar</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -111,7 +104,7 @@
     </div>
 
       <!-- ======= About Us Section ======= -->
-      <section id="about" class="about">
+      <section id="abouthome" class="about">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -121,24 +114,30 @@
         <div class="row content">
           <div class="col-lg-6">
             <p>
-            Amani Dental, amani dental merupakan klinik gigi keluarga anda.
+            Amani Dental, Visi:
+            "Menjadi Klinik Gigi Terbaik dalam Pelayanan serta Meniadi Solusi Kesehatan Gigi dan Mulut Pilihan Utama Masyarakat.".
             </p>
+            <p>
+            Misi :
+            <ul>
+              <li><i class="ri-check-double-line"></i>  1. Mengedukasi Masyarakat untuk Senantiasa menjaga kesehatan gigi dan mulutnya. </li>
+              <li><i class="ri-check-double-line"></i>  2. Menyediakan Dokter Gigi yang profesional, alat dan bahan modern yang berkualitas, fasilitas yang nyaman dengan harga yang terjangkau.</li>
+              <!-- <li><i class="ri-check-double-line"></i> Pelayanan cepat dan ramah</li> -->
+            </ul>
+            </p>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
             <ul>
               <li><i class="ri-check-double-line"></i> Pelayanan cepat dan ramah</li>
               <li><i class="ri-check-double-line"></i> Profesional dalam melayani masalah kesehatan gigi</li>
               <li><i class="ri-check-double-line"></i> Pelayanan cepat dan ramah</li>
             </ul>
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
-              Sistem Pakar kesehatan gigi dan mulut Amani Dental .
-            </p>
-            <a href="" class="btn-learn-more" >Mulai Sistem Pakar</a>
-          </div>
         </div>
 
       </div>
-    </section><!-- End About Us Section -->
+    </section>
+    <!-- End About Us Section -->
 
      <!-- ======= Why Us Section ======= -->
      <section id="why-us" class="why-us section-bg">
@@ -234,6 +233,20 @@
                 </div>
               </div>
 
+              <div class="progress">
+                <span class="skill">Perawatan Gigi <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Cabut gigi <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
             </div>
 
           </div>
@@ -241,68 +254,6 @@
 
       </div>
     </section><!-- End Skills Section -->
-
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Frequently Asked Questions</h2>
-          <p>Penting untuk bertanya tentang semua masalah dan keprihatinan Anda terkait kesehatan gigi dan mulut selama konsultasi, sehingga dokter gigi Anda dapat memberikan perawatan yang tepat dan memberikan saran yang sesuai untuk menjaga kesehatan gigi dan mulut Anda dengan baik.</p>
-        </div>
-
-        <div class="faq-list">
-          <ul>
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Bagaimana cara menjaga kebersihan gigi dan mulut yang baik? ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                <p>
-                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Berapa kali sebaiknya saya menyikat gigi dalam sehari, dan kapan waktu yang tepat untuk melakukannya ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Apakah saya memilih sikat gigi yang tepat? Jenis dan ukuran sikat gigi apa yang direkomendasikan ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Bagaimana cara membersihkan antar gigi dengan benang gigi atau alat bantu pembersih gigi lainnya ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="500">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Apakah ada makanan atau minuman yang harus dihindari untuk menjaga kesehatan gigi ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                </p>
-              </div>
-            </li>
-
-          </ul>
-        </div>
-
-      </div>
-    </section><!-- End Frequently Asked Questions Section -->
 
      <!-- ======= Contact Section ======= -->
      <section id="contact" class="contact">
@@ -312,10 +263,8 @@
           <h2>Contact</h2>
           <p>Klinik Gigi Profesional pilihan keluarga.</p>
         </div>
-
         <div class="row">
-
-          <div class="col-lg-5 d-flex align-items-stretch">
+        <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade-right" data-aos-delay="100">
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
@@ -329,92 +278,32 @@
                 <p>iamanydentalclinic@gmail.com</p>
               </div>
 
+              <div class="socialmedia">
+                <i class="bx bxl-instagram"></i>
+                <h4>Instagram :</h4>
+                <p>@amanydentalclinic_</p>
+              </div>
+
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Telepon:</h4>
                 <p>+62 878-8496-1410</p>
               </div>
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15860.37294174822!2d106.8238917!3d-6.3819662!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69eb5f5d486971%3A0xed511f5b16abe504!2sAmany%20Dental%20Clinic!5e0!3m2!1sid!2sid!4v1690195701727!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-
           </div>
-
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+        <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15860.37294174822!2d106.8238917!3d-6.3819662!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69eb5f5d486971%3A0xed511f5b16abe504!2sAmany%20Dental%20Clinic!5e0!3m2!1sid!2sid!4v1690195701727!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-
         </div>
-
       </div>
     </section><!-- End Contact Section -->
+  </main>
 
   <!-- ======= Footer ======= -->
   <footer class="text-center text-lg-start text-white" style="background-color: #514170" id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Amani Dental</h3>
-            <p>
-            Jl. Flamboyan, Beji Tim. <br>
-            Kecamatan Beji, Kota Depok<br>
-            Jawa Barat 16422<br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="#home">Home</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="question.php">Sistem Pakar</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Social Networks</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-            <div class="social-links mt-3">
-              <a href="https://www.instagram.com/amanydentalclinic_/?hl=id#" class="instagram"><i class="bx bxl-instagram"></i></a>
-            </div>
-          </div>
-
         </div>
       </div>
     </div>
@@ -428,6 +317,7 @@
       </div>
     </div>
   </footer><!-- End Footer -->
+
   <!-- Vendor JS Files -->
   <script src="vendor/aos/aos.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -441,4 +331,5 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
 
+</body>
 </html>
