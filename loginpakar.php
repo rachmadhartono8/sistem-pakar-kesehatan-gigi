@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="website monitoring suhu dan kelembaban jamur tiram">
     <meta name="author" content="katon gilang bagaskara">
-    <link rel="icon" href="image/icon.png">
+    <link rel="icon" href="image/icon2.png">
 
     <title>Login</title>
 
