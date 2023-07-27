@@ -13,7 +13,7 @@ $conn = mysqli_connect($servername, $username, $password, $database);
 if (!$conn) {
     die("Koneksi gagal: " . mysqli_connect_error());
 }
-// Menyimpan data musim ke dalam database (asumsikan data musim tersimpan di $_SESSION['nama'], $_SESSION['umur'], dst.)
+// Menyimpan data season ke dalam database (asumsikan data season tersimpan di $_SESSION['nama'], $_SESSION['umur'], dst.)
 if (isset($_SESSION['nama']) && isset($_SESSION['umur']) && isset($_SESSION['nomor']) && isset($_SESSION['alamat'])) {
     $nama = $_SESSION['nama'];
     $umur = $_SESSION['umur'];
@@ -23,7 +23,8 @@ if (isset($_SESSION['nama']) && isset($_SESSION['umur']) && isset($_SESSION['nom
     $sql_insert = "INSERT INTO tb_simpan_data (nama, umur, nomor, alamat) VALUES ('$nama', '$umur', '$nomor', '$alamat')";
 
     if (mysqli_query($conn, $sql_insert)) {
-        echo "Data musim berhasil disimpan ke dalam database.";
+        echo "Data season berhasil disimpan ke dalam database.";
+        // echo "<script>alert('Data season berhasil disimpan ke dalam database.');</script>";
     } else {
         echo "Error: " . mysqli_error($conn);
     }
