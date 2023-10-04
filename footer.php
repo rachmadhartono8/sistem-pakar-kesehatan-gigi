@@ -13,7 +13,7 @@
         &copy; Copyright <strong><span>Rachmad Hartono</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        Designed by <a href="https://nefri.com/">Rachmad Hartono</a>
+        Designed by <a href="https://instagram/rachmad.hartono">Rachmad Hartono</a>
       </div>
     </div>
   </footer><!-- End Footer -->
