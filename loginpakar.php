@@ -30,7 +30,7 @@
         </label>
       </div>
       <button class="btn btn-info btn-block" type="submit" style="background-color:#6e6692"; >Sign in</button>
-      <p class="mt-5 mb-3 text-muted">&copy; Nefriprudensia Adira 2023</p>
+      <p class="mt-5 mb-3 text-muted">&copy; Rachmad Hartono 2023</p>
     </form>
   </body>
 </html>
